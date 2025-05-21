@@ -1,0 +1,204 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+    color: white; 
+  }
+header{
+    background-image: url(main.png); 
+    height: 90vh; 
+}
+header .front{
+    height: 90vh;
+    background-color: rgba(0, 0, 0, 0.65);
+    display: flex;
+    justify-content: center;
+}
+nav{
+    width: 80%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#logo{
+    height: 5rem;
+}
+.button1 {
+   background-color: black;
+   color: aliceblue;
+   border-color: aliceblue;
+   border-width: 0.1px;
+   height:33px;
+   width: 80px;
+}
+.button2{
+    background-color: red;
+    color: aliceblue;
+    height: 36px;
+    width: 80px;
+}
+.topic{
+    color: aliceblue;
+    text-align: center;
+    display: flex;
+    align-items: center;
+   position: absolute;
+   top: 25%;
+   font-size: 60px;
+   font-weight: bold;
+}
+.lower{
+    color: aliceblue;
+    position: absolute;
+    top: 44%;
+    font-size: 23px;
+    font-weight: bold;
+}
+.down{
+    color: aliceblue;
+    position: absolute;
+    top: 52%;
+    font-size: 20px;
+}
+.entry{
+    position: absolute;
+    top: 60%;
+}
+#email{
+    background-color: black;
+    color: aliceblue;
+    border-color: aliceblue;
+    border-width: 0.1px;
+    height: 47px;
+    width: 350px;
+}
+#Get{
+    background-color: red;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: large;
+    height: 50px;
+    width: 230px;
+}
+main{
+    background-color: black;
+}
+.trend{
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 75px;
+    margin-bottom: 10px;
+    margin-top: 20px; 
+}
+.image{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.img{
+    margin: 10px 10px 10px 10px;
+}
+.more{
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 75px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    
+}
+#box1,#box2,#box3,#box4{
+    background: linear-gradient(135deg, #1a1530, #2b2047);
+    color: aliceblue;
+    height: 280px;
+    width: 280px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.head{
+    font-weight: bold;
+    font-size: larger;
+}
+.ready{
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+.last{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+#address{
+    background-color: black;
+    color: aliceblue;
+    border-color: aliceblue;
+    border-width: 0.1px;
+    height: 55px;
+    width: 550px;
+    margin-right: 5px;
+}
+#Started{
+    background-color: red;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: large;
+    height: 60px;
+    width: 230px;
+}
+footer{
+    margin-top: 80px;
+}
+.foot1
+{
+margin-left: 120px;
+}
+.link{
+    margin-top: 30px;
+    text-align: center;
+    padding: 40px 20px; 
+}
+#links{
+    color: aliceblue;
+}
+.link-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+.foot2
+{
+margin-left: 120px;
+margin-bottom: 20px;
+}
+.button3 {
+    margin-left: 120px;
+    margin-bottom: 20px;
+    background-color: black;
+    color: aliceblue;
+    border-color: aliceblue;
+    border-width: 0.1px;
+    height:33px;
+    width: 80px;
+ }
+ .foot3{
+    margin-left: 120px;
+    margin-bottom: 100px;
+    opacity: 0.6;
+ }
+ 
