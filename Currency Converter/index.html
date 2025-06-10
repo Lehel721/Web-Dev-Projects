@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>WE WELCOME YOU TO CURRENCY CONVERTER BY LD GROUP OF INDUSTRIES.</h1>
+    <div class="amount">
+        <form action="">
+            <div>Enter Amount</div>
+            <div class="dropdown">
+                <div id="box">
+                    <input type="text" placeholder="Amount" class="box">
+                </div>
+                <div class="from">
+                    <p>From</p>
+                    <div class="container">
+                        <img src="https://flagsapi.com/US/flat/64.png">
+                        <select name="From" id="from">
+                           
+                            <option value="usd">USD</option>
+                            <option value="inr">INR</option>
+                            <option value="euro">EURO</option>
+                            <option value="aed">AED</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="to">
+                    <p>To</p>
+                    <div class="container">
+                        <img src="https://flagsapi.com/IN/flat/64.png">
+                        <select name="to" id="to">
+                            
+                            <option value="usd">USD</option>
+                            <option value="inr" selected>INR</option>
+                            <option value="euro">EURO</option>
+                            <option value="aed">AED</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="message">1 USD=85.5 INR</div>
+            <button >Get Exchange Rate</button>
+        </form>
+    </div>
+    <script src="codes.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
