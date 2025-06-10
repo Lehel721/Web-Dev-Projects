@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+/* Input Container */
+.input-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr auto;
+    gap: 15px;
+    max-width: 800px;
+    margin: 0 auto 30px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+}
+
+#todo {
+    padding: 12px 16px;
+    border: 2px solid #e1e5e9;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+#todo:focus {
+    border-color: #667eea;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+#TodoDate {
+    padding: 12px 16px;
+    border: 2px solid #e1e5e9;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+#TodoDate:focus {
+    border-color: #667eea;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+button {
+    padding: 12px 24px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+}
+
+button:active {
+    transform: translateY(0);
+}
+
+/* Todo Container */
+.todoContainer {
+    max-width: 800px;
+    margin: 0 auto;
+    display: grid;
+    gap: 15px;
+}
+
+/* Individual Todo Item */
+.todoContainer > div {
+    display: grid;
+    grid-template-columns: 2fr 1fr auto;
+    gap: 15px;
+    align-items: center;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.todoContainer > div:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+}
+
+/* Todo Text Box */
+.todo-text {
+    background: #f8f9fc;
+    padding: 12px 16px;
+    border-radius: 8px;
+    border: 1px solid #e1e5e9;
+    font-size: 16px;
+    color: #2d3748;
+    word-wrap: break-word;
+}
+
+/* Date Box */
+.todo-date {
+    background: #e8f4f8;
+    padding: 12px 16px;
+    border-radius: 8px;
+    border: 1px solid #bee3f0;
+    font-size: 14px;
+    color: #2b6cb0;
+    text-align: center;
+    font-weight: 500;
+}
+
+/* Delete Button Box */
+.delete-btn {
+    background: linear-gradient(135deg, #ff6b6b 0%, #ee5a52 100%);
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    min-width: 80px;
+}
+
+.delete-btn:hover {
+    background: linear-gradient(135deg, #ff5252 0%, #e53e3e 100%);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(255, 107, 107, 0.4);
+}
+
+.delete-btn:active {
+    transform: translateY(0);
+}
+
+/* Empty State */
+.empty-state {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    margin-top: 50px;
+    opacity: 0.8;
+}
+
