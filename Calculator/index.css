@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+#Calculator{
+    
+    border: 1px solid rgb(182, 173, 173);
+    width: 150px;
+    
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
+}
+input{
+    text-align: center;
+    width: 120px;
+    height: 20px;
+}
+.button{
+    width: 30px;
+    height: 30px;
+}
+.AllButtons{
+    padding: 5px 5px 5px 5px;
+    padding-left: 15px;
+}
+#Lastbutton{
+   padding-left: 18px;
+}
