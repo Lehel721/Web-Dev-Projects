@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+</head>
+
+<body>
+    <div class="container flex">
+        <aside class="left border">
+            <nav class="left-above">
+                <img src="logo.svg" class="invert">
+                <div class="home">
+                    <img src="home.svg" class="invert">Home
+                </div>
+                <div class="search">
+                    <img src="search.svg" class="invert">Search
+                </div>
+            </nav>
+            <section class="left-below">
+                <div class="library">
+                    <span id="library">Your Library</span>
+                    <span id="plus">+</span>
+                </div>
+                <article class="create-playlist">
+                    <b>Create your first playlist</b>
+                    <p>it's easy we will help you out</p>
+                    <button id="playlist">Create Playlist</button>
+                </article>
+                <article class="podcasts">
+                    <b>Let's find some podcasts to follow</b>
+                    <p>We will keep you updated on the new episodes</p>
+                    <button id="podcasts">Browse Podcasts</button>
+                </article>
+                <nav class="sidebar-legal-links">
+                    <a href="https://www.spotify.com/in-en/legal/" target="_blank">Legal</a>
+                    <a href="https://www.spotify.com/in-en/safetyandprivacy/" target="_blank">Safety & Privacy
+                        Center</a>
+                    <a href="https://www.spotify.com/in-en/legal/privacy-policy/" target="_blank">Privacy Policy</a>
+                    <a href="https://www.spotify.com/in-en/legal/cookies-policy/" target="_blank">Cookies</a>
+                    <p><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3" target="_blank">About Ads</a>
+                        <a href="https://www.spotify.com/in-en/accessibility/" target="_blank">Accessibility</a>
+                    </p>
+                    <p><a href="https://www.spotify.com/legal/cookies-policy/" target="_blank">Cookies</a></p>
+                </nav>
+                <div class="english">
+                    <button id="english"><b>English</b></button>
+                </div>
+            </section>
+        </aside>
+        <main class="right border">
+            <header class="header">
+                <span class="previous">
+                    <button id="left">
+                        < </button>
+                            <button id="right"> > </button></span>
+                <span class="log">
+                    <button id="sign">Sign up</button>
+                    <button id="login">Login</button>
+                </span>
+            </header>
+            <section class="playlist">
+                <h1 id="SpotifyPlaylists">Spotify Playlists</h1>
+                <div class="cards">
+                    <article id="card1">
+                        <img src="image1.jpg" alt="" class="images">
+                        <b>Sapphire</b>
+                        <p>Ed Sheeran</p>
+                    </article>
+                    <article id="card2">
+                        <img src="image2.jpg" alt="" class="images">
+                        <b>0008</b>
+                        <p>Sidhu Moosewala,Jenny Jonal, The kidd</p>
+                    </article>
+                    <article id="card3">
+                        <img src="image3.jpg" alt="" class="images">
+                        <b>Dil ka kya</b>
+                        <p>Pritam,Raghav Chaitanya,Anurag Sharma</p>
+                    </article>
+                    <article id="card4">
+                        <img src="image4.jpg" alt="" class="images">
+                        <b>Shaky</b>
+                        <p>Sanju Rathod,G-SPXRK</p>
+                    </article>
+                    <article id="card5">
+                        <img src="image5.jpg" alt="" class="images">
+                        <b>Muththa Mazhai</b>
+                        <p>A.R Rahman,Chinmayi, Siva Ananth</p>
+                    </article>
+                </div>
+                <section class="top50">
+                    <h1 id="trending">Featured Charts</h1>
+                    <div class="cards">
+                        <article id="card1">
+                            <img src="global.jpg" alt="" class="images">
+                            <p>Your daily update of the most played tracks right now - Global.</p>
+                        </article>
+                        <article id="card2">
+                            <img src="global2.jpg" alt="" class="images">
+                            <p> Your weekly update of the most played tracks right now - Global.</p>
+                        </article>
+                        <article id="card3">
+                            <img src="india.jpg" alt="" class="images">
+                            <p>Your daily update of the most played tracks right now - India.</p>
+                        </article>
+                        <article id="card4">
+                            <img src="india2.jpg" alt="" class="images">
+                            <p>Your weekly update of the most played tracks right now - India.</p>
+                        </article>
+                        <article id="card5">
+                            <img src="viral.jpg" alt="" class="images">
+                            <p>Your daily update of the most viral tracks right now - Global.</p>
+                        </article>
+                    </div>
+                </section>
+                <section>
+                    <div class="playbar">
+                        <div class="playbar-left">
+                            <div class="song-image"></div>
+                            <div class="song-info">
+                                <a href="#" class="song-title">Song Title</a>
+                                <a href="#" class="song-artist">Artist Name</a>
+                            </div>
+                            <button class="like-button">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                                    <path d="M15.724 4.22A4.313 4.313 0 0012.192.814a4.269 4.269 0 00-3.622 1.13.837.837 0 01-1.14 0 4.272 4.272 0 00-6.21 5.855l5.916 7.05a1.128 1.128 0 001.727 0l5.916-7.05a4.228 4.228 0 00.945-3.577z"/>
+                                </svg>
+                            </button>
+                        </div>
+                    
+                        
+                        <div class="playbar-center">
+                            <div class="player-controls">
+                                <button class="control-button">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                                        <path d="M13.151.922a.75.75 0 10-1.06 1.06L13.109 3H11.16a3.75 3.75 0 00-2.873 1.34l-6.173 7.356A2.25 2.25 0 003.83 15.5h7.342a.75.75 0 000-1.5H3.83a.75.75 0 01-.573-1.235L9.43 5.409a2.25 2.25 0 011.73-.909h1.95L12.09 5.52a.75.75 0 001.06 1.06L15.24 4.49a.75.75 0 000-1.06l-2.09-2.508z"/>
+                                    </svg>
+                                </button>
+                                <button class="control-button">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                                        <path d="M3.3 1a.7.7 0 01.7.7v5.15l9.95-5.744a.7.7 0 011.05.606v12.588a.7.7 0 01-1.05.606L4 8.149V13.3a.7.7 0 01-.7.7H1.7a.7.7 0 01-.7-.7V1.7a.7.7 0 01.7-.7h1.6z"/>
+                                    </svg>
+                                </button>
+                                <button class="play-pause-button">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                                        <path d="m3 1.713a.7.7 0 0 1 1.05-.607l10.89 6.288a.7.7 0 0 1 0 1.212L4.05 14.894A.7.7 0 0 1 3 14.287V1.713z"/>
+                                    </svg>
+                                </button>
+                                <button class="control-button">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                                        <path d="M12.7 1a.7.7 0 00-.7.7v5.15L2.05 1.107A.7.7 0 001 1.712v12.588a.7.7 0 001.05.606L12 8.149V13.3a.7.7 0 00.7.7h1.6a.7.7 0 00.7-.7V1.7a.7.7 0 00-.7-.7h-1.6z"/>
+                                    </svg>
+                                </button>
+                                <button class="control-button">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                                        <path d="M0 4.75A3.75 3.75 0 013.75 1h8.5A3.75 3.75 0 0116 4.75v5a3.75 3.75 0 01-3.75 3.75H9.81l1.018 1.018a.75.75 0 11-1.06 1.06L6.939 12.75l2.829-2.828a.75.75 0 111.06 1.06L9.811 12h2.439a2.25 2.25 0 002.25-2.25v-5a2.25 2.25 0 00-2.25-2.25h-8.5A2.25 2.25 0 001.5 4.75v5A2.25 2.25 0 003.75 12H5v1.5H3.75A3.75 3.75 0 010 9.75v-5z"/>
+                                    </svg>
+                                </button>
+                            </div>
+                            
+                            <div class="progress-section">
+                                <span class="time-label">0:25</span>
+                                <div class="progress-bar">
+                                    <div class="progress-fill"></div>
+                                </div>
+                                <span class="time-label">3:45</span>
+                            </div>
+                        </div>
+                    
+                    
+                        <div class="playbar-right">
+                            <div class="secondary-controls">
+                                <button class="control-button">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                                        <path d="M6 2.75C6 1.784 6.784 1 7.75 1h6.5c.966 0 1.75.784 1.75 1.75v11.5A1.75 1.75 0 0114.25 16h-6.5A1.75 1.75 0 016 14.25V2.75zm1.75-.25a.25.25 0 00-.25.25v11.5c0 .138.112.25.25.25h6.5a.25.25 0 00.25-.25V2.75a.25.25 0 00-.25-.25h-6.5zm-5.25 2a2.25 2.25 0 00-2.25 2.25v2.5A2.25 2.25 0 002.5 11h1.25a.75.75 0 000-1.5H2.5a.75.75 0 01-.75-.75v-2.5A.75.75 0 012.5 5.5h1.25a.75.75 0 000-1.5H2.5z"/>
+                                    </svg>
+                                </button>
+                                <button class="control-button">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                                        <path d="M13.426 2.574a2.831 2.831 0 00-4.797 1.55l3.247 3.247zm-10.852 10.852l3.247-3.247A2.831 2.831 0 007.37 13.426zM.177 4.935l1.414 1.414a8.889 8.889 0 0112.859 0l1.414-1.414a10.889 10.889 0 00-15.687 0z"/>
+                                    </svg>
+                                </button>
+                            </div>
+                            
+                            <div class="volume-section">
+                                <button class="control-button">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                                        <path d="M9.741.85a.8.8 0 00-.672.32L5.054 5.02H1.8a.8.8 0 00-.8.8v4.32a.8.8 0 00.8.8h3.254l4.015 3.851a.8.8 0 001.369-.567V1.417a.8.8 0 00-.697-.567z"/>
+                                    </svg>
+                                </button>
+                                <div class="volume-bar">
+                                    <div class="volume-fill"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </section>
+                <footer class="footer">
+                    <div class="footer-content">
+                        <div class="footer-columns">
+                            <div class="footer-column">
+                                <h3>Company</h3>
+                                <ul>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Jobs</a></li>
+                                    <li><a href="#">For the Record</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="footer-column">
+                                <h3>Communities</h3>
+                                <ul>
+                                    <li><a href="#">For Artists</a></li>
+                                    <li><a href="#">Developers</a></li>
+                                    <li><a href="#">Advertising</a></li>
+                                    <li><a href="#">Investors</a></li>
+                                    <li><a href="#">Vendors</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="footer-column">
+                                <h3>Useful links</h3>
+                                <ul>
+                                    <li><a href="#">Support</a></li>
+                                    <li><a href="#">Free Mobile App</a></li>
+                                    <li><a href="#">Popular by Country</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="footer-column">
+                                <h3>Spotify Plans</h3>
+                                <ul>
+                                    <li><a href="#">Premium Individual</a></li>
+                                    <li><a href="#">Premium Duo</a></li>
+                                    <li><a href="#">Premium Family</a></li>
+                                    <li><a href="#">Premium Student</a></li>
+                                    <li><a href="#">Spotify Free</a></li>
+                                </ul>
+
+                                <div class="social-icons">
+                                    <div class="social-icon">
+                                        <svg viewBox="0 0 24 24">
+                                            <path
+                                                d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.174-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.098.119.112.223.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.402.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.357-.629-2.758-1.378l-.749 2.848c-.269 1.045-1.004 2.352-1.498 3.146 1.123.345 2.306.535 3.55.535 6.624 0 11.99-5.367 11.99-11.987C24.007 5.367 18.641.001 12.017.001z" />
+                                        </svg>
+                                    </div>
+
+                                    <div class="social-icon">
+                                        <svg viewBox="0 0 24 24">
+                                            <path
+                                                d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z" />
+                                        </svg>
+                                    </div>
+
+                                    <div class="social-icon">
+                                        <svg viewBox="0 0 24 24">
+                                            <path
+                                                d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="footer-bottom">
+                            <div class="copyright">
+                                © 2025 Spotify AB
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </section>
+        </main>
+    </div>
+    <audio id="audio-player" style="display: none;"></audio>
+    <script src="index.js"></script>
+</body>
+
+</html>
