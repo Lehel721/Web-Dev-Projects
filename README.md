@@ -2,6 +2,8 @@
 
 A collection of web development projects showcasing various frontend technologies and clone implementations.
 
+> **🚀 Can't use GitHub Copilot in VS Code?** Check out the [Quick Start Guide](QUICK_START.md) for a 3-minute setup!
+
 ## 📁 Projects Included
 
 ### 1. **Calculator**
